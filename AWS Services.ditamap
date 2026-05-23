@@ -3,5 +3,5 @@
 <map>
     <title>AWS Services</title>
     <topicref href="aws_elastic_block_services.dita"/>
-    <topicref href="aws_elastic_block_services_0.dita"/>
+    <topicref href="aws_elastic_block_store_0.dita"/>
 </map>
