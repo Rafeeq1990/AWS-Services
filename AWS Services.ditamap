@@ -2,6 +2,13 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>AWS Services</title>
+    <keydef keys="EBS">
+        <topicmeta>
+            <keywords>
+                <keyword>Amazon EBS</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
     <topicref href="aws_elastic_block_services.dita"/>
-    <topicref href="aws_elastic_block_store_0.dita"/>
+    <topicref href="types_of_aws_ebs.dita"/>
 </map>
