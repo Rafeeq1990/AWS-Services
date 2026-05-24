@@ -14,7 +14,7 @@
                     <li>The throughput of these volumes is 128MBPS up to 170GB. After which
                         throughput increases 768KBPS per GB and peaks at 160MBPS.</li>
                 </ol></li>
-            <li><b><b>Provisioned IOPS SSD (IO1)</b></b><ul id="ul_xmn_2l1_jjc">
+            <li><b><b audience="expert">Provisioned IOPS SSD (IO1)</b></b><ul id="ul_xmn_2l1_jjc">
                     <li>These SSDs are IO intensive.</li>
                     <li>Users can specify IOPS requirement during creation.</li>
                     <li>Size limit is 4TB-16TB</li>
@@ -22,9 +22,10 @@
                         instances will deliver IOPS defined within 10% 99.9% times of the year"</li>
                     <li>Max IOPS speed is 20000.</li>
                 </ul></li>
-            <li><b><b>HDD: </b></b>This storage type is suitable for Big Data chunks and slower
-                processing. These volumes cannot be used as root volumes for EC2. AWS claims that
-                "These volumes provide expected throughput 99.9% times of the year"</li>
+            <li><b><b audience="expert">HDD: </b></b>This storage type is suitable for Big Data
+                chunks and slower processing. These volumes cannot be used as root volumes for EC2.
+                AWS claims that "These volumes provide expected throughput 99.9% times of the
+                year"</li>
             <li><b><b>Cold HDD (SC1)</b></b><ul id="ul_qj1_5l1_jjc">
                     <li>SC1 is the cheapest of all EBS volume types. It is suitable for large,
                         infrequently accessed data.<ul id="ul_c33_vl1_jjc">
@@ -34,13 +35,13 @@
                             </li>
                         </ul></li>
                 </ul></li>
-            <li><b><b>Throughput optimized HDD (ST)</b></b><ul id="ul_mqp_1m1_jjc">
+            <li><b audience="novice"><b>Throughput optimized HDD (ST)</b></b><ul id="ul_mqp_1m1_jjc">
                     <li>Suitable for large, frequently accessed data.</li>
                     <li>Burst speed ranges from 250 MBPS to 500 MBPS</li>
                 </ul></li>
         </ol>
-        <note id="note_fvm_2m1_jjc">gp2 is now considered legacy and gp3 is the preferred default
-            for deployments.<p/><p>
+        <note id="note_fvm_2m1_jjc" type="caution" audience="novice">gp2 is now considered legacy
+            and gp3 is the preferred default for deployments.<p/><p>
                 <image placement="break" href="images/HostComputer.png" id="image_o5m_pm1_jjc"/>
             </p></note>
         <p>The above image shows single EBS volumes attached to their respective EC2 instances (Note
