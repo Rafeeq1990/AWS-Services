@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map>
+<map audience="expert novice">
     <title>AWS Services</title>
-    <topicref href="aws_elastic_block_services.dita"/>
-    <topicref href="aws_elastic_block_services_0.dita"/>
+    <keydef keys="EBS">
+        <topicmeta>
+            <keywords>
+                <keyword>Amazon EBS</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <topicref href="aws_elastic_block_services.dita" audience="novice"/>
+    <topicref href="types_of_aws_ebs.dita" audience="expert"/>
 </map>
