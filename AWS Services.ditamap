@@ -11,4 +11,5 @@
     </keydef>
     <topicref href="aws_elastic_block_services.dita" audience="novice"/>
     <topicref href="types_of_aws_ebs.dita" audience="expert"/>
+    <topicref href="enable_block_public_access_for_amazon_ebs_snapshots.dita"/>
 </map>
