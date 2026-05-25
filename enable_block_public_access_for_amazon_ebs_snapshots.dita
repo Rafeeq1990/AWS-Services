@@ -59,7 +59,7 @@
             <step>
                 <cmd>Choose <b>Update</b>.</cmd>
                 <info>
-                    <note id="note_bmk_s2g_jjc" type="warning">take precautions before blocing
+                    <note id="note_bmk_s2g_jjc" type="caution">take precautions before blocing
                         public access for snapshots.</note>
                 </info>
             </step>
