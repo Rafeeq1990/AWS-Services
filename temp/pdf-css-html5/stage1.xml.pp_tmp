@@ -4,7 +4,7 @@
     
     <topicref audience="expert expert novice" is-chapter="true" class="- map/topicref " href="#unique_1" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="types_of_aws_ebs"><resourceid appid="types_of_aws_ebs" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_1" class="- topic/navtitle ">Types of AWS Elastic Block Store ( EBS )</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref>
     <topicref audience="expert expert novice" is-chapter="true" class="- map/topicref " href="#unique_2" type="task"><topicmeta class="- map/topicmeta " data-topic-id="enable_block_public_access_for_amazon_ebs_snapshots"><resourceid appid="enable_block_public_access_for_amazon_ebs_snapshots" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_2" class="- topic/navtitle "> Enable block public access for Amazon EBS snapshots</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref>
-<topicref is-chapter="true" is-index="true" class="- map/topicref "><topicmeta class="- map/topicmeta "><navtitle href="#d111e255" class="- topic/navtitle ">Index</navtitle></topicmeta></topicref></opentopic:map><concept break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_1" topicrefclass="- map/topicref " audience="expert expert novice" nd:nd-id="types_of_aws_ebs" oid="types_of_aws_ebs" specializations="@props/deliveryTarget">
+<topicref is-chapter="true" is-index="true" class="- map/topicref "><topicmeta class="- map/topicmeta "><navtitle href="#d111e257" class="- topic/navtitle ">Index</navtitle></topicmeta></topicref></opentopic:map><concept break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_1" topicrefclass="- map/topicref " audience="expert expert novice" nd:nd-id="types_of_aws_ebs" oid="types_of_aws_ebs" specializations="@props/deliveryTarget">
     <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Types of AWS Elastic Block Store ( EBS )</ph></title>
     <shortdesc class="- topic/shortdesc "/>
     <conbody class="- topic/body  concept/conbody ">
@@ -62,7 +62,7 @@
                             sharing. Additionally, snapshots that were already publicly shared are
                             treated as private and are no longer publicly available</li><li class="- topic/li ">
                             <ul class="- topic/ul " id="unique_2_Connect_42_ul_xrs_rcg_jjc" nd:nd-id="ul_xrs_rcg_jjc"><li class="- topic/li ">
-                                    <p class="- topic/p "> — To block
+                                    <p class="- topic/p "><b audience="expert" class="+ topic/ph hi-d/b ">Block new public sharing</b> — To block
                                         only new public sharing of your snapshots. Users in the
                                         account can't request new public sharing. However, snapshots
                                         that were already publicly shared, remain publicly
@@ -78,6 +78,6 @@
                 </info>
             </step></steps>
     </taskbody>
-</task><opentopic-index:index.groups class="- index/groups " id="d111e255"><opentopic-index:index.group class="- index/group "><opentopic-index:label class="- index/label ">E</opentopic-index:label><opentopic-index:index.entry value="Enable Block Access" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value " id="d111e262a1251"><keyword class="- topic/keyword ">Enable Block Access</keyword></opentopic-index:formatted-value><opentopic-index:refID value="Enable Block Access:" indexid="d111e262a1251" class="- index/refid "><oxy:index-link href="#d111e154" class="- index/link ">
+</task><opentopic-index:index.groups class="- index/groups " id="d111e257"><opentopic-index:index.group class="- index/group "><opentopic-index:label class="- index/label ">E</opentopic-index:label><opentopic-index:index.entry value="Enable Block Access" class="- index/entry "><opentopic-index:formatted-value class="- index/formatted-value " id="d111e264a1251"><keyword class="- topic/keyword ">Enable Block Access</keyword></opentopic-index:formatted-value><opentopic-index:refID value="Enable Block Access:" indexid="d111e264a1251" class="- index/refid "><oxy:index-link href="#d111e154" class="- index/link ">
           [d111e154]
         </oxy:index-link></opentopic-index:refID></opentopic-index:index.entry></opentopic-index:index.group></opentopic-index:index.groups></map>
