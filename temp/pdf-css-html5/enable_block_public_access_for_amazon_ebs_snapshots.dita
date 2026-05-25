@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /D:\AWS Services\temp\pdf-css-html5?><?workdir-uri file:/D:/AWS%20Services/temp/pdf-css-html5/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Task//EN?><?doctype-system task.dtd?><task xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="enable_block_public_access_for_amazon_ebs_snapshots" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic task/task " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="task:1;3:64" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="title:1;4:12"> Enable block public access for Amazon EBS snapshots</title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="shortdesc:1;5:16"/>
+    <prolog class="- topic/prolog " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="prolog:1;6:13">
+        <author class="- topic/author " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="author:1;7:17">Rafeeq</author>
+        <copyright class="- topic/copyright " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="copyright:1;8:20">
+            <copyryear year="2026" class="- topic/copyryear " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="copyryear:1;9:37"/>
+            <copyrholder class="- topic/copyrholder " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="copyrholder:1;10:27"/>
+        </copyright>
+        <metadata class="- topic/metadata " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="metadata:1;12:19">
+            <keywords class="- topic/keywords " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="keywords:1;13:23">
+                <indexterm class="- topic/indexterm " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="indexterm:1;14:28"><keyword class="- topic/keyword " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="keyword:1;14:37">Enable Block Access</keyword></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody class="- topic/body task/taskbody " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="taskbody:1;18:15">
+        <context class="- topic/section task/context " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="context:1;19:18">
+            <p class="- topic/p " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="p:1;20:16"><b class="+ topic/ph hi-d/b " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="b:1;20:19">To enable block public access for snapshots</b></p>
+        </context>
+        <steps class="- topic/ol task/steps " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="steps:1;22:16">
+            <step class="- topic/li task/step " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="step:1;23:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="cmd:1;24:22">Open the Amazon EC2 console at</cmd>
+                <info class="- topic/itemgroup task/info " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="info:1;25:23"><xref href="https://console.aws.amazon.com/ec2/." format="html" scope="external" class="- topic/xref " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="xref:1;26:43"/></info>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="step:2;28:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="cmd:2;29:22">In the navigation pane, choose <b class="+ topic/ph hi-d/b " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="b:2;29:56">EC2 Dashboard</b>, and then in <b class="+ topic/ph hi-d/b " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="b:3;29:90">Account
+                        attributes</b> (on the right-hand side), choose <b class="+ topic/ph hi-d/b " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="b:4;30:76">Data protection and
+                        security</b>.</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="step:3;33:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="cmd:3;34:22">In the <b class="+ topic/ph hi-d/b " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="b:5;34:32">Block public access for EBS snapshots</b> section, choose
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="b:6;35:28">Manage</b>.</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="step:4;37:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="cmd:4;38:22">Select <b class="+ topic/ph hi-d/b " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="b:7;38:32">Block public access</b> and then choose one of the following
+                    options:</cmd>
+                <info class="- topic/itemgroup task/info " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="info:2;40:23">
+                    <ul id="ul_rt4_mcg_jjc" class="- topic/ul " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="ul:1;41:45">
+                        <li class="- topic/li " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="li:1;42:29"><b audience="expert" class="+ topic/ph hi-d/b " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="b:8;42:50">Block all public access</b> — To block all public
+                            sharing of your snapshots. Users in the account can't request new public
+                            sharing. Additionally, snapshots that were already publicly shared are
+                            treated as private and are no longer publicly available</li>
+                        <li class="- topic/li " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="li:2;46:29">
+                            <ul id="ul_xrs_rcg_jjc" class="- topic/ul " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="ul:2;47:53">
+                                <li class="- topic/li " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="li:3;48:37">
+                                    <p class="- topic/p " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="p:2;49:40"><b audience="expert" class="+ topic/ph hi-d/b " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="b:9;49:61">Block new public sharing</b> — To block
+                                        only new public sharing of your snapshots. Users in the
+                                        account can't request new public sharing. However, snapshots
+                                        that were already publicly shared, remain publicly
+                                        available.</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="step:5;60:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="cmd:5;61:22">Choose <b class="+ topic/ph hi-d/b " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="b:10;61:32">Update</b>.</cmd>
+                <info class="- topic/itemgroup task/info " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="info:3;62:23">
+                    <note id="note_bmk_s2g_jjc" type="caution" class="- topic/note " xtrf="file:/D:/AWS%20Services/enable_block_public_access_for_amazon_ebs_snapshots.dita" xtrc="note:1;63:64">take precautions before blocing
+                        public access for snapshots.</note>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

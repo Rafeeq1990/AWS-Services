@@ -11,7 +11,7 @@
     
     <div audience="expert expert novice" is-chapter="true" href="#unique_1" type="concept" class="- map/topicref topicref"><div data-topic-id="types_of_aws_ebs" class="- map/topicmeta topicmeta"><div appid="types_of_aws_ebs" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_1" class="- topic/navtitle navtitle">Types of AWS Elastic Block Store ( EBS )</div><div class="- map/shortdesc shortdesc"></div></div></div>
     <div audience="expert expert novice" is-chapter="true" href="#unique_2" type="task" class="- map/topicref topicref"><div data-topic-id="enable_block_public_access_for_amazon_ebs_snapshots" class="- map/topicmeta topicmeta"><div appid="enable_block_public_access_for_amazon_ebs_snapshots" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_2" class="- topic/navtitle navtitle"> Enable block public access for Amazon EBS snapshots</div><div class="- map/shortdesc shortdesc"></div></div></div>
-<div is-chapter="true" is-index="true" class="- map/topicref topicref"><div class="- map/topicmeta topicmeta"><div href="#d111e255" class="- topic/navtitle navtitle">Index</div></div></div></div><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic concept/concept topic concept nested0" aria-labelledby="ariaid-title1" break-before="true" is-chapter="true" id="unique_1" topicrefclass="- map/topicref " audience="expert expert novice" nd:nd-id="types_of_aws_ebs" oid="types_of_aws_ebs" specializations="@props/deliveryTarget">
+<div is-chapter="true" is-index="true" class="- map/topicref topicref"><div class="- map/topicmeta topicmeta"><div href="#d111e257" class="- topic/navtitle navtitle">Index</div></div></div></div><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic concept/concept topic concept nested0" aria-labelledby="ariaid-title1" break-before="true" is-chapter="true" id="unique_1" topicrefclass="- map/topicref " audience="expert expert novice" nd:nd-id="types_of_aws_ebs" oid="types_of_aws_ebs" specializations="@props/deliveryTarget">
     <h1 class="- topic/title title topictitle1" id="ariaid-title1"><span class="- topic/ph topic/title-wrapper ph title-wrapper">Types of AWS Elastic Block Store ( EBS )</span></h1>
     
     <div class="- topic/body concept/conbody body conbody"><p class="- topic/shortdesc shortdesc"></p>
@@ -69,7 +69,7 @@
                             sharing. Additionally, snapshots that were already publicly shared are
                             treated as private and are no longer publicly available</li><li class="- topic/li li">
                             <ul class="- topic/ul ul" id="unique_2_Connect_42_ul_xrs_rcg_jjc" nd:nd-id="ul_xrs_rcg_jjc"><li class="- topic/li li">
-                                    <p class="- topic/p p"> — To block
+                                    <p class="- topic/p p"><strong audience="expert" class="+ topic/ph hi-d/b ph b">Block new public sharing</strong> — To block
                                         only new public sharing of your snapshots. Users in the
                                         account can't request new public sharing. However, snapshots
                                         that were already publicly shared, remain publicly
@@ -85,6 +85,6 @@
                 </div>
             </li></ol></section>
     </div>
-</article><div id="d111e255" class="- index/groups groups"><div class="- index/group group"><div class="- index/label label">E</div><div value="Enable Block Access" class="- index/entry entry"><div id="d111e262a1251" class="- index/formatted-value formatted-value"><div class="- topic/keyword keyword">Enable Block Access</div></div><div value="Enable Block Access:" indexid="d111e262a1251" class="- index/refid refid"><div href="#d111e154" class="- index/link link">
+</article><div id="d111e257" class="- index/groups groups"><div class="- index/group group"><div class="- index/label label">E</div><div value="Enable Block Access" class="- index/entry entry"><div id="d111e264a1251" class="- index/formatted-value formatted-value"><div class="- topic/keyword keyword">Enable Block Access</div></div><div value="Enable Block Access:" indexid="d111e264a1251" class="- index/refid refid"><div href="#d111e154" class="- index/link link">
           [d111e154]
         </div></div></div></div></div></div></div></div></div></body></html>
