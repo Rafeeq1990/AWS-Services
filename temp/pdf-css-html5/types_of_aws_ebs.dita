@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /D:\AWS Services\temp\pdf-css-html5?><?workdir-uri file:/D:/AWS%20Services/temp/pdf-css-html5/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="types_of_aws_ebs" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="concept:1;3:32" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="title:1;4:12">Types of AWS Elastic Block Store ( EBS )</title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="shortdesc:1;5:16"/>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="conbody:1;6:14">
+        <ol id="ol_dtm_qk1_jjc" class="- topic/ol " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="ol:1;7:33">
+            <li class="- topic/li " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="li:1;8:17"><b class="+ topic/ph hi-d/b " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="b:1;8:20"><b class="+ topic/ph hi-d/b " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="b:2;8:23">SSD: </b></b>This storage type is suitable for small chunks of data that
+                requires fast I/Ops. SSDs can be used as root volumes for EC2 instances.</li>
+            <li class="- topic/li " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="li:2;10:17"><b class="+ topic/ph hi-d/b " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="b:3;10:20"><b class="+ topic/ph hi-d/b " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="b:4;10:23">General Purpose SSD (GP3)</b></b><ol id="ol_igp_tk1_jjc" class="- topic/ol " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="ol:2;10:80">
+                    <li class="- topic/li " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="li:3;11:25">Offers a single-digit millisecond latency.</li>
+                    <li class="- topic/li " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="li:4;12:25">Can provide 3000 IOps burst.</li>
+                    <li class="- topic/li " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="li:5;13:25">IOps speed is limited from 3-10000 IOps.</li>
+                    <li class="- topic/li " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="li:6;14:25">The throughput of these volumes is 128MBPS up to 170GB. After which
+                        throughput increases 768KBPS per GB and peaks at 160MBPS.</li>
+                </ol></li>
+            <li class="- topic/li " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="li:7;17:17"><b class="+ topic/ph hi-d/b " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="b:5;17:20"><b audience="expert" class="+ topic/ph hi-d/b " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="b:6;17:41">Provisioned IOPS SSD (IO1)</b></b><ul id="ul_xmn_2l1_jjc" class="- topic/ul " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="ul:1;17:99">
+                    <li class="- topic/li " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="li:8;18:25">These SSDs are IO intensive.</li>
+                    <li class="- topic/li " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="li:9;19:25">Users can specify IOPS requirement during creation.</li>
+                    <li class="- topic/li " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="li:10;20:25">Size limit is 4TB-16TB</li>
+                    <li class="- topic/li " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="li:11;21:25">According to AWS claims "These volumes, if attached to EBS optimized
+                        instances will deliver IOPS defined within 10% 99.9% times of the year"</li>
+                    <li class="- topic/li " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="li:12;23:25">Max IOPS speed is 20000.</li>
+                </ul></li>
+            <li class="- topic/li " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="li:13;25:17"><b class="+ topic/ph hi-d/b " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="b:7;25:20"><b audience="expert" class="+ topic/ph hi-d/b " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="b:8;25:41">HDD: </b></b>This storage type is suitable for Big Data
+                chunks and slower processing. These volumes cannot be used as root volumes for EC2.
+                AWS claims that "These volumes provide expected throughput 99.9% times of the
+                year"</li>
+            <li class="- topic/li " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="li:14;29:17"><b class="+ topic/ph hi-d/b " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="b:9;29:20"><b class="+ topic/ph hi-d/b " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="b:10;29:23">Cold HDD (SC1)</b></b><ul id="ul_qj1_5l1_jjc" class="- topic/ul " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="ul:2;29:69">
+                    <li class="- topic/li " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="li:15;30:25">SC1 is the cheapest of all EBS volume types. It is suitable for large,
+                        infrequently accessed data.<ul id="ul_c33_vl1_jjc" class="- topic/ul " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="ul:3;31:76">
+                            <li class="- topic/li " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="li:16;32:33">
+                                <note id="note_gyt_vl1_jjc" type="warning" class="- topic/note " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="note:1;33:76">Max Burst speed offered
+                                    is 250 Mbps</note>
+                            </li>
+                        </ul></li>
+                </ul></li>
+            <li class="- topic/li " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="li:17;38:17"><ul id="ul_mqp_1m1_jjc" class="- topic/ul " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="ul:4;38:102">
+                    <li class="- topic/li " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="li:18;39:25">Suitable for large, frequently accessed data.</li>
+                    <li class="- topic/li " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="li:19;40:25">Burst speed ranges from 250 MBPS to 500 MBPS</li>
+                </ul></li>
+        </ol>
+        
+        <p class="- topic/p " xtrf="file:/D:/AWS%20Services/types_of_aws_ebs.dita" xtrc="p:3;47:12">The above image shows single EBS volumes attached to their respective EC2 instances (Note
+            that EBS cannot be shared between two volumes, however one EFS can be attached to
+            multiple EC2 servers).</p>
+    </conbody>
+</concept>

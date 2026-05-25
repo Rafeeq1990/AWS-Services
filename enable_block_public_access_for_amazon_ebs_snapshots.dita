@@ -26,9 +26,10 @@
                         scope="external"/></info>
             </step>
             <step>
-                <cmd>In the navigation pane, choose <b>EC2 Dashboard</b>, and then in <b>Account
-                        attributes</b> (on the right-hand side), choose <b>Data protection and
-                        security</b>.</cmd>
+                <cmd>In the navigation pane, choose <b><xref href="http://www.aws.com/services"
+                            format="html" scope="external">EC2 Dashboard</xref></b>, and then in
+                        <b>Account attributes</b> (on the right-hand side), choose <b>Data
+                        protection and security</b>.</cmd>
             </step>
             <step>
                 <cmd>In the <b>Block public access for EBS snapshots</b> section, choose
@@ -39,20 +40,15 @@
                     options:</cmd>
                 <info>
                     <ul id="ul_rt4_mcg_jjc">
-                        <li><b>Block all public access</b> — To block all public sharing of your
-                            snapshots. Users in the account can't request new public sharing.
-                            Additionally, snapshots that were already publicly shared are treated as
-                            private and are no longer publicly available</li>
+                        <li><b audience="expert">Block all public access</b> — To block all public
+                            sharing of your snapshots. Users in the account can't request new public
+                            sharing. Additionally, snapshots that were already publicly shared are
+                            treated as private and are no longer publicly available</li>
                         <li>
-                            <ul id="ul_xrs_rcg_jjc">
-                                <li>
-                                    <p><b>Block new public sharing</b> — To block only new public
-                                        sharing of your snapshots. Users in the account can't
-                                        request new public sharing. However, snapshots that were
-                                        already publicly shared, remain publicly available.</p>
-                                </li>
-                            </ul>
-                        </li>
+                            <b audience="novice">Block new public sharing</b> — To block only new
+                            public sharing of your snapshots. Users in the account can't request new
+                            public sharing. However, snapshots that were already publicly shared,
+                            remain publicly available.</li>
                     </ul>
                 </info>
             </step>
