@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="the_event_driven_model">
+    <title>The Event-Driven Model</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>Every Lambda execution follows a three-part pattern.</p>
+        <ul id="ul_xyy_kjp_jjc">
+            <li><b><b>Trigger (Event Source):</b></b> An event occurs, such as a file uploaded to
+                S3, an HTTP request hitting API Gateway, or a message arriving in an SQS queue.</li>
+            <li>
+                <ph keyref="Services"/>spins up your code to process that specific event.</li>
+            <li><b><b>Destination (Downstream Service):</b></b> The function performs an action,
+                such as saving data to DynamoDB, returning an HTTP response, or writing a processed
+                file back to S3.</li>
+        </ul>
+        <p><b><b>Example:</b></b> A new image uploaded to an S3 bucket triggers a Lambda function
+            that resizes the image and saves the result to a separate <xref href="http://wwww.aws.com" scope="external" format="html">S3 bucket</xref>.</p>
+        <p>When you write a Lambda function (in Python, Node.js, Java, etc.), you are primarily
+            interacting with three components. Here is a standard Python example:</p>
+        <p/>
+        <p>
+            <codeblock id="codeblock_bdv_ckp_jjc">def lambda_handler(event, context):
+    # 1. The Handler
+    print("Received event:", event)
+    
+    # Your business logic here
+    message = "Hello, " + event.get("key1", "World")
+    
+    return {
+        'statusCode': 200,
+        'body': message
+    }</codeblock>
+        </p>
+        <ul id="ul_qv1_ykp_jjc">
+            <li><b><b>The Handler Function:</b></b> This is the entry point (lambda_handler above).
+                AWS calls this function when execution starts.</li>
+            <li><b><b>The event Object</b></b>: This contains the data from the trigger. If
+                triggered by an API, this holds the HTTP request body. If triggered by S3, it holds
+                the filename and bucket details.</li>
+            <li><b><b>The context Object</b></b>: This provides runtime information, such as how
+                much memory is allocated, the function name, and how much time is left before
+                timeout.</li>
+            <li
+                conref="supported_languages_specs_and_limitations.dita#supported_languages_specs_and_limitations/ul_fv3_cg4_kjd"/>  
+        </ul>
+    </conbody>
+</concept>

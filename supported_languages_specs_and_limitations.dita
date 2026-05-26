@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="supported_languages_specs_and_limitations">
+    <title>Supported Languages, Specs and Limitations</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>Here are the basic technical specifications of the AWS Lambda runtime engine:</p>
+        <p/>
+        <ul id="ul_fv3_cg4_jjc">
+            <li>Lambda’s supports the following runtimes: Python: 3.7, 3.6, and 2.7, Java 8, Go 1.x,
+                .NET Core: 1.0.1 and 2.1, Node.js: v10.15 and v8.10, Ruby 2.5, and Rust. <i>Learn
+                    more in our guide to </i><xref
+                    href="https://lumigo.io/learn/what-are-the-aws-lambda-supported-languages/"
+                    format="html" scope="external"><i>Lambda supported languages</i></xref></li>
+            <li>Function containers use a 64-bit Amazon Linux AMI</li>
+            <li id="ul_fv3_cg4_kjd">CPU power of the function container is determined in relation to
+                memory capacity. You may increase or decrease CPU resources by adding or removing
+                memory . A container may be scaled up to 10 GB of memory and 6 vCPUs.</li>
+            <li>A Lambda function may run for up to 15 minutes (this is called the Lambda timeout),
+                meaning Lambda is not suited to long-running processes.</li>
+            <li>The /tmp directory acts as ephemeral disk space—it is cleaned after every
+                invocation.</li>
+            <li>Uncompressed function packages are restricted to 250MB. Compressed function packages
+                are restricted to 50MB</li>
+        </ul>
+    </conbody>
+</concept>
