@@ -44,5 +44,7 @@
             <li
                 conref="supported_languages_specs_and_limitations.dita#supported_languages_specs_and_limitations/ul_fv3_cg4_kjd"/>  
         </ul>
+        <note id="note_pmy_rqp_jjc" type="caution">Pls install AWS Lambda Services Event Driven
+            Model.</note>
     </conbody>
 </concept>
