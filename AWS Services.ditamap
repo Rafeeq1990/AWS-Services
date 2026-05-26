@@ -14,4 +14,6 @@
     <topicref href="enable_block_public_access_for_amazon_ebs_snapshots.dita" audience="expert"/>
     <topicref href="aws_lambda_services.dita"/>
     <topicref href="how_does_aws_lambda_work.dita"/>
+    <topicref href="supported_languages_specs_and_limitations.dita"/>
+    <topicref href="the_event_driven_model.dita"/>
 </map>
