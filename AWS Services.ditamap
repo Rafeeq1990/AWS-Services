@@ -9,7 +9,16 @@
             </keywords>
         </topicmeta>
     </keydef>
+    <keydef keys="Services">
+        <topicmeta>
+            <keywords>
+                <keyword>AWS Services</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
     <topicref href="aws_elastic_block_services.dita" audience="novice"/>
     <topicref href="types_of_aws_ebs.dita" audience="expert"/>
     <topicref href="enable_block_public_access_for_amazon_ebs_snapshots.dita" audience="expert"/>
+    <topicref href="aws_lambda_services.dita"/>
+    <topicref href="how_does_aws_lambda_work.dita"/>
 </map>
