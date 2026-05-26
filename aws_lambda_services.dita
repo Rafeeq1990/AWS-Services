@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="aws_lambda_services">
+    <title>AWS Lambda Services</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p><b>What Is AWS Lambda?</b></p>
+        <p>AWS Lambda is a serverless compute service that permits you to run code without
+            controlling or provisioning servers. Lambda uses highly available, elastic
+            infrastructure to run your code. It carries out compute resources-administration tasks,
+            such as automatic scaling and capacity provisioning, operating system and server
+            maintenance. Lambda can run code for almost any form of backend or application
+            service.</p>
+        <p>In a serverless model, code needs to be organized into functions. Lambda only runs your
+            functions when necessary. It scales automatically, varying from several requests a day
+            through to thousands a second. You only pay for the compute time you use—you won’t be
+            charged when code is not run.</p>
+        <p>Lambda can run your functions when triggered by events from different AWS services. You
+            can also utilize your Lambda function via the Lambda API.</p>
+        <p/>
+        <p/>
+    </conbody>
+</concept>
