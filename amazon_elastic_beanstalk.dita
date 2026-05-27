@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="amazon_elastic_beanstalk">
+    <title><b>Amazon Elastic Beanstalk</b></title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>Amazon Elastic Beanstalk is a service from AWS that helps you easily deploy and manage
+            web applications. You just upload your code, and the deployment part is handled by
+            Elastic Beanstalk (from capacity provisioning, load balancing, and auto-scaling to
+            application health monitoring).</p>
+        <ul id="ul_tjp_pxw_jjc">
+            <li>Supports Java, Python, Node.js, .NET, PHP, Ruby, Go, and Docker.</li>
+            <li>Handles provisioning, load balancing, autoscaling, and monitoring.</li>
+        </ul>
+        <p>
+            <note id="note_lr3_sxw_jjc"><b><b>Use Case</b></b>: Deploy a Django application via ZIP
+                upload.</note>
+        </p>
+    </conbody>
+</concept>

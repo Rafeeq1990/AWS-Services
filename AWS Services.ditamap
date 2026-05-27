@@ -18,5 +18,11 @@
     </keydef>
     <topicref href="aws_elastic_block_services.dita" audience="novice"/>
     <topicref href="types_of_aws_ebs.dita" audience="expert"/>
+    <topicref href="enable_block_public_access_for_amazon_ebs_snapshots.dita" audience="expert"/>
+    <topicref href="aws_lambda_services.dita"/>
+    <topicref href="how_does_aws_lambda_work.dita"/>
+    <topicref href="supported_languages_specs_and_limitations.dita" audience="expert"/> master
+    <topicref href="the_event_driven_model.dita"/>
     <topicref href="amazon_ecs_eks.dita"/>
+   <topicref href="amazon_elastic_beanstalk.dita"/>
 </map>
