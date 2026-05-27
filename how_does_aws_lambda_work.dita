@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="how_does_aws_lambda_work">
+    <title>How Does AWS Lambda Work?</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm><keyword>AWS Lamda, </keyword><keyword>AWS Lambda
+                    Services</keyword></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>The following are several key principles to help you become familiar with AWS Lambda.</p>
+        <p>AWS Lambda components:</p>
+        <ul id="ul_pv1_gvn_jjc">
+            <li><b>Lambda functions</b>—standalone functions invoked by the AWS Lambda engine, and
+                terminated when they finish their work.</li>
+            <li><b>Packaging functions</b>—responsible for compressing Lambda functions, including
+                their dependencies, and transferring them to AWS. The function must first be zipped
+                and uploaded to an S3 bucket.</li>
+        </ul>
+        <p>AWS Lambda execution model:</p>
+        <ul id="ul_r5b_mvn_jjc">
+            <li><b>Container—</b>an operational unit that contains a Lambda function, and makes use
+                of AWS-managed resources to run the function</li>
+            <li><b>Instances—</b>containers are immutable, meaning you cannot use them after they
+                terminate. To allow for on-demand usage, instances—or replicas—of the container, are
+                created by AWS Lambda.</li>
+            <li><b>Stateless functions</b>—each Lambda function is optimized and controlled by AWS
+                and typically invoked once for each container instantiation.</li>
+            <li><b>Events—</b>requests that are served by one instance of a Lambda function. Events
+                typically stream from other parts of the Amazon ecosystem—for example from databases
+                like DynamoDB, CloudWatch events, or changes to files on S3—and trigger a Lambda
+                function which processes the data in the event.</li>
+        </ul>
+    </conbody>
+</concept>
