@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="amazon_ecs_eks">
+    <title>Amazon ECS / EKS</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>Managed services for orchestrating containers in AWS.</p>
+        <ul id="ul_nsr_tlw_jjc">
+            <li><b><b>ECS</b></b>: Native container orchestration for Docker containers, integrated
+                with AWS tools.</li>
+            <li><b><b>EKS</b></b>: Managed Kubernetes environment, compatible with Kubernetes-native
+                tooling.</li>
+        </ul>
+        <p><b><b>Use Case</b></b>: Deploy containerized microservices architecture.</p>
+        <p/>
+        <p><b><b><b>AWS Fargate</b></b></b></p>
+        <p>Serverless compute engine for containers on ECS or EKS.</p>
+        <ul id="ul_orb_dmw_jjc">
+            <li>Eliminates need for provisioning and managing EC2 instances.</li>
+            <li>Automatically scales container workloads.</li>
+        </ul>
+        <p><b><b>Use Case</b></b>: Run stateless APIs in Docker containers using ECS + Fargate.</p>
+    </conbody>
+</concept>
