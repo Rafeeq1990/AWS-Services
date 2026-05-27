@@ -45,10 +45,10 @@
                             sharing. Additionally, snapshots that were already publicly shared are
                             treated as private and are no longer publicly available</li>
                         <li>
-                            <b audience="novice">Block new public sharing</b> — To block only new
-                            public sharing of your snapshots. Users in the account can't request new
-                            public sharing. However, snapshots that were already publicly shared,
-                            remain publicly available.</li>
+                            <ph keyref="EBS"/><b audience="novice">Block new public sharing</b> — To
+                            block only new public sharing of your snapshots. Users in the account
+                            can't request new public sharing. However, snapshots that were already
+                            publicly shared, remain publicly available.</li>
                     </ul>
                 </info>
             </step>
