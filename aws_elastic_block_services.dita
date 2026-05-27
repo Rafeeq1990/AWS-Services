@@ -62,5 +62,8 @@
                 <li conref="types_of_aws_ebs.dita#types_of_aws_ebs/ul_xmn_3l_jjc"/>
             </ol>
         </p>
+        <p>
+            <note id="note_qls_2y1_jjc">Make sure for the reusable content </note>
+        </p>
     </conbody>
 </concept>

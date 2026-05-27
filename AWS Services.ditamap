@@ -22,6 +22,7 @@
     <topicref href="aws_lambda_services.dita"/>
     <topicref href="how_does_aws_lambda_work.dita"/>
     <topicref href="supported_languages_specs_and_limitations.dita" audience="expert"/> master
-        <topicref href="the_event_driven_model.dita"/><topicref href="amazon_elastic_beanstalk.dita"
-    />
+    <topicref href="the_event_driven_model.dita"/>
+    <topicref href="amazon_ecs_eks.dita"/>
+   <topicref href="amazon_elastic_beanstalk.dita"/>
 </map>
